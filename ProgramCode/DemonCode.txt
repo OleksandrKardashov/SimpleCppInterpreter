@@ -1,0 +1,17 @@
+program test begin type a
+	@mark
+	cin >> a
+	type b
+	b = (a - 10) + ((a + 1) / 2)
+	cout << b
+	if a < b then type i
+		for i = 0 by 1 to 3 do cout << i
+			type j
+			for j = 100 by 10 to 150 do cout << b
+			b = b - 1
+			rof 
+		rof
+		if b <= 20 then goto @mark
+		fi
+	fi
+end

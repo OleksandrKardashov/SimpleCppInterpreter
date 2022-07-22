@@ -1,0 +1,38 @@
+Program := "program" "id" "begin" ListOper_1 "end".
+
+ListOper_1 := ListOper.
+ListOper := Oper "¶".
+ListOper := Oper "¶" ListOper.
+
+Oper := Declaration.
+Oper := "lab".
+Oper := CondTransition.
+Oper := Cycle.
+Oper := Initialization.
+Oper := Input.
+Oper := Output.
+Oper := IncondTransition.
+Oper := Relation.
+Oper := Expression.
+
+Declaration := "type" "id".
+CondTransition := "if" Relation "then" ListOper_1 "fi".
+Cycle := "for" Initialization "by" Expression "to" Expression "do" ListOper_1 "rof".
+Initialization := "id" "=" Expression.
+Input := "cin" ">>" "id".
+Output := "cout" "<<" Expression.
+IncondTransition := "goto" "lab".
+Relation := Expression "comparisonSign" Expression.
+
+Expression := Term.
+Term := Term_1.
+Term := Term "+" Term_1.
+Term := Term "-" Term_1.
+Term_1 := Mult.
+Mult := Mult_1.
+Mult := Mult "*" Mult_1.
+Mult := Mult "/" Mult_1.
+Mult_1 := "id".
+Mult_1 := "fixConst".
+Mult_1 := InPar.
+InPar := "(" Expression ")".
