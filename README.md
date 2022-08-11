@@ -32,7 +32,7 @@ The MyLan language includes the following features:
   <operator list>
   fi
   ```
-- Execution of the unconditional transition operator goto:
+- Execution of the unconditional transition operator **goto**:
   ```
   goto <@label>
   ```
