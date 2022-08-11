@@ -118,16 +118,24 @@ If you use the key --info/-i when starting the application, then the following d
   
   <img src="https://user-images.githubusercontent.com/51093494/184240424-964fd379-1030-4abf-8331-eff806711a80.png" width="450" height="250">
 
+
 - Next, precedence relations EQUAL, FIRST+, LAST+ are displayed, which created on the basis of parsing the input grammar:
+  
   <img src="https://user-images.githubusercontent.com/51093494/184240474-69dca811-fe21-4c47-863f-029e29e49853.png">
-  ![image](https://user-images.githubusercontent.com/51093494/184240500-06b45076-a5e1-4d7f-afad-8720c15c3f4b.png)
-  ![image](https://user-images.githubusercontent.com/51093494/184240519-0ac45188-0fdd-4e5b-8c0b-cc447926778e.png)
+  <img src="https://user-images.githubusercontent.com/51093494/184240500-06b45076-a5e1-4d7f-afad-8720c15c3f4b.png">
+  <img src="https://user-images.githubusercontent.com/51093494/184240519-0ac45188-0fdd-4e5b-8c0b-cc447926778e.png">
+
 
 - Table of relations between each syntax construct of the MyLan language (=, >, <):
-  ![image](https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png)
+
+  <img src="https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png">
+
 
 - Program code in the form of Reverse Polish Notation:
-  ![image](https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png)
+
+  <img src="https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png">
+
 
 - After that, there is a process of executing the program code that was submitted as input:
-  ![image](https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png)
+
+  <img src="https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png">
