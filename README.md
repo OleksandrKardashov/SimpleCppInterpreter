@@ -128,7 +128,7 @@ If you use the key --info/-i when starting the application, then the following d
 
 - Table of relations between each syntax construct of the MyLan language (=, >, <):
 
-  <img src="https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png" width="850" height="300">
+  <img src="https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png" width="750" height="350">
 
 
 - Program code in the form of Reverse Polish Notation:
