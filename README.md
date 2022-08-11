@@ -19,21 +19,21 @@ The MyLan language includes the following features:
 - Performing comparison operations (>, <, >=, <=, !=, ==), but without the possibility of using the logical operators AND (&&), OR (||).
 - Initialization of variables and the ability to write data into variables.
 - Execution of a cyclic operatot **for**. The syntax of the cyclic operator is as follows:
-```
-for <idn>=<exp> by <exp> to <exp> do
-<operator list>
-rof
-```
+  ```
+  for <idn>=<exp> by <exp> to <exp> do
+  <operator list>
+  rof
+  ```
 - Execution of a conditional choice operator **if** with this syntax:
-```
-if <relation> then
-<operator list>
-fi
-```
+  ```
+  if <relation> then
+  <operator list>
+  fi
+  ```
 - Execution of the unconditional transition operator goto:
-```
-goto <@label>
-```
+  ```
+  goto <@label>
+  ```
 
 ## GRAMMAR
 Programming language functionality are defined by the grammar based on Extended Backus-Naur Form (EBNF). Below are all the grammar rules of the MyLan language:
@@ -97,7 +97,7 @@ The use of keys when starting the application is optional. Without a manually sp
 - MyLan language grammar file: ./Resources/Grammar.txt
 - File with input table of MyLan language lexemes: ./Resources/Lexem.txt
 
-![image](https://user-images.githubusercontent.com/51093494/184240243-f0133d42-faa8-4189-a1e1-56a27bca7b3d.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240243-f0133d42-faa8-4189-a1e1-56a27bca7b3d.png)
 
 When the program is executed, two more folders are created - OutLAnalyzer and OutRPN, in which the output files generated after the lexical analyzer and the Reverse Polish Notation creation process are placed.
 
@@ -108,18 +108,18 @@ The executable program code of the MyLan language:
 
 If you use the key --info/-i when starting the application, then the following data will be displayed one by one:
 - Grammar of the MyLan language, which the application received as input:
-![image](https://user-images.githubusercontent.com/51093494/184240424-964fd379-1030-4abf-8331-eff806711a80.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240424-964fd379-1030-4abf-8331-eff806711a80.png)
 
 - Next, precedence relations EQUAL, FIRST+, LAST+ are displayed, which created on the basis of parsing the input grammar:
-![image](https://user-images.githubusercontent.com/51093494/184240474-69dca811-fe21-4c47-863f-029e29e49853.png)
-![image](https://user-images.githubusercontent.com/51093494/184240500-06b45076-a5e1-4d7f-afad-8720c15c3f4b.png)
-![image](https://user-images.githubusercontent.com/51093494/184240519-0ac45188-0fdd-4e5b-8c0b-cc447926778e.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240474-69dca811-fe21-4c47-863f-029e29e49853.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240500-06b45076-a5e1-4d7f-afad-8720c15c3f4b.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240519-0ac45188-0fdd-4e5b-8c0b-cc447926778e.png)
 
 - Table of relations between each syntax construct of the MyLan language (=, >, <):
-![image](https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240597-c6d61a18-2522-4249-bc2c-e9bdfee93c04.png)
 
 - Program code in the form of Reverse Polish Notation:
-![image](https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png)
 
 - After that, there is a process of executing the program code that was submitted as input:
-![image](https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png)
+  ![image](https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png)
