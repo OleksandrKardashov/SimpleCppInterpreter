@@ -4,7 +4,7 @@ An interpreter for the custom programming language in the form of a console appl
 This console application allows you to execute the code of a simple programming language (hereinafter MyLan), according to the given grammar rules. The application gives the user the opportunity, for educational purposes, to see each stage of the interpreter, consisting of several main blocks:
 - Lexical analyzer
 - Syntactic analyzer
-- Reverse Polish notation (RPN) building block
+- Reverse Polish Notation (RPN) building block
 - RPN execution block
 
 ![image](https://user-images.githubusercontent.com/51093494/184239126-ada625d9-594b-4095-9c09-d6394b129ee1.png)
