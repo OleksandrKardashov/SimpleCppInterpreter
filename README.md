@@ -128,12 +128,12 @@ If you use the key --info/-i when starting the application, then the following d
 
 - Table of relations between each syntax construct of the MyLan language (=, >, <):
 
-  <img src="https://user-images.githubusercontent.com/51093494/184248145-e81b792c-2425-4830-aa39-e862efdac3b8.png" width="750" height="300">
+  <img src="https://user-images.githubusercontent.com/51093494/184248145-e81b792c-2425-4830-aa39-e862efdac3b8.png" width="750" height="250">
 
 
 - Program code in the form of Reverse Polish Notation:
 
-  <img src="https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png" width="750" height="300">
+  <img src="https://user-images.githubusercontent.com/51093494/184240654-683bc8b8-579e-4c56-bf9a-30e63985c063.png" width="750" height="250">
 
 
 - After that, there is a process of executing the program code that was submitted as input:
