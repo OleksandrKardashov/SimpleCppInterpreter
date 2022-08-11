@@ -101,7 +101,7 @@ The use of keys when starting the application is optional. Without a manually sp
 - MyLan language grammar file: ./Resources/Grammar.txt
 - File with input table of MyLan language lexemes: ./Resources/Lexem.txt
 
-  ![image](https://user-images.githubusercontent.com/51093494/184240243-f0133d42-faa8-4189-a1e1-56a27bca7b3d.png)
+  <img src="https://user-images.githubusercontent.com/51093494/184240243-f0133d42-faa8-4189-a1e1-56a27bca7b3d.png">
 
 When the program is executed, two more folders are created - OutLAnalyzer and OutRPN, in which the output files generated after the lexical analyzer and the Reverse Polish Notation creation process are placed.
 
