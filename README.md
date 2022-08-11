@@ -2,8 +2,8 @@
 An interpreter for the custom programming language in the form of a console application, written in C++
 
 This console application allows you to execute the code of a simple programming language (hereinafter MyLan), according to the given grammar rules. The application gives the user the opportunity, for educational purposes, to see each stage of the interpreter, consisting of several main blocks:
-- lexical analyzer
-- parser
+- Lexical analyzer
+- Syntactic analyzer
 - Reverse Polish notation (RPN) building block
 - RPN execution block
 
