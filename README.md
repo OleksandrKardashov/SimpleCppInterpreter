@@ -138,4 +138,4 @@ If you use the key --info/-i when starting the application, then the following d
 
 - After that, there is a process of executing the program code that was submitted as input:
 
-  <img src="https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png" width="400" height="800">
+  <img src="https://user-images.githubusercontent.com/51093494/184240705-436fb5b1-06a2-4597-ace5-cd2e6ef0cf8b.png" width="300" height="550">
