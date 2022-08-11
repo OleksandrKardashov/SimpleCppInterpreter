@@ -9,7 +9,7 @@ This console application allows you to execute the code of a simple programming 
 
 ![image](https://user-images.githubusercontent.com/51093494/184239126-ada625d9-594b-4095-9c09-d6394b129ee1.png)
 
-The interpreter performs lexical analysis using the **transition diagram method**. 
+The interpreter performs lexical analysis using the **transition diagram method**.
 Syntactical analysis performs using a **bottom-up parsing method based on precedence relationships**.
 Reverse Polish Notation is built using **Dijkstra's algorithm**.
 
