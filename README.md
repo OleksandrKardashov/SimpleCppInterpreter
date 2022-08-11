@@ -1,5 +1,5 @@
 # SimpleCppInterpreter
-An interpreter for the custom programming language in the form of a console application, written in C++
+An interpreter for the custom programming language in the form of a console application, written with C++
 
 This console application allows you to execute the code of a simple programming language (hereinafter MyLan), according to the given grammar rules. The application gives the user the opportunity, for educational purposes, to see each stage of the interpreter, consisting of several main blocks:
 - Lexical analyzer
@@ -14,7 +14,7 @@ Syntactical analysis performs using a **bottom-up parsing method based on preced
 Reverse Polish Notation is built using **Dijkstra's algorithm**.
 
 
-## Language overview
+## LANGUAGE OVEREVIEW
 The MyLan language includes the following features:
 - The data type for performing mathematical operations with floating point numbers, similar to the *float* data type. It is also allowed to use numbers in integer form.
 - Performing basic mathematical operations - addition, subtraction, multiplication, division.
