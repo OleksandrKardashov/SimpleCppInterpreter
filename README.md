@@ -115,6 +115,7 @@ The executable program code of the MyLan language:
 
 If you use the key --info/-i when starting the application, then the following data will be displayed one by one:
 - Grammar of the MyLan language, which the application received as input:
+  
   <img src="https://user-images.githubusercontent.com/51093494/184240424-964fd379-1030-4abf-8331-eff806711a80.png" width="450" height="250">
 
 - Next, precedence relations EQUAL, FIRST+, LAST+ are displayed, which created on the basis of parsing the input grammar:
