@@ -13,6 +13,7 @@ The interpreter performs lexical analysis using the **transition diagram method*
 Syntactical analysis performs using a **bottom-up parsing method based on precedence relationships**.
 Reverse Polish Notation is built using **Dijkstra's algorithm**.
 
+
 ## Language overview
 The MyLan language includes the following features:
 - The data type for performing mathematical operations with floating point numbers, similar to the *float* data type. It is also allowed to use numbers in integer form.
@@ -35,6 +36,7 @@ The MyLan language includes the following features:
   ```
   goto <@label>
   ```
+
 
 ## GRAMMAR
 Programming language functionality are defined by the grammar based on Extended Backus-Naur Form (EBNF). Below are all the grammar rules of the MyLan language:
@@ -79,6 +81,7 @@ Mult_1 := InPar.
 InPar := "(" Expression ")".
 ```
 
+
 ## USING
 The interpreter is designed as a console application, which, in addition to executing the program code of the MyLan language, makes it possible to manually specify the necessary input files for parsing and track each step in the process of performing lexical and syntactic analysis, as well as performing program code operations.
 All of these options are available using *keys* when running a console application. For each key is defined the full and abbreviated form:
@@ -101,6 +104,7 @@ The use of keys when starting the application is optional. Without a manually sp
   ![image](https://user-images.githubusercontent.com/51093494/184240243-f0133d42-faa8-4189-a1e1-56a27bca7b3d.png)
 
 When the program is executed, two more folders are created - OutLAnalyzer and OutRPN, in which the output files generated after the lexical analyzer and the Reverse Polish Notation creation process are placed.
+
 
 ## OUTPUT OF THE APPLICATION
 The results of the application execution will be demonstrated using the default input data as an example.
