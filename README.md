@@ -13,6 +13,7 @@ The interpreter performs lexical analysis using the **transition diagram method*
 Syntactical analysis performs using a **bottom-up parsing method based on precedence relationships**.
 Reverse Polish Notation is built using **Dijkstra's algorithm**.
 
+## Language overview
 The MyLan language includes the following features:
 - The data type for performing mathematical operations with floating point numbers, similar to the *float* data type. It is also allowed to use numbers in integer form.
 - Performing basic mathematical operations - addition, subtraction, multiplication, division.
