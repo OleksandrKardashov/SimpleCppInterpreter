@@ -35,38 +35,50 @@ fi
 goto <@label>
 ```
 
-# GRAMMAR
+## GRAMMAR
 Programming language functionality are defined by the grammar based on Extended Backus-Naur Form (EBNF). Below are all the grammar rules of the MyLan language:
 ```
-Program = "program" Id "begin" ListOper "end".	
-ListOper = {Operator "¶"}.
-Operator = Declaration | Label | CondTransition | Cycle | Initialization | Input | Output | IncondTransition | Relation | Expression.
+Program := "program" "id" "begin" ListOper_1 "end".
 
-Declaration = Type Id.
-CondTransition = "if" Relation "then" ListOper "fi".
-Cycle = "for" Initialization "by" Expression "to" Expression "do" ListOper "rof".
-Initialization = Id "=" Expression.
-Input = "cin" ">>" Id.
-Output = "cout" "<<" Expression.
-IncondTransition = "goto" Label.
-Relation = Expression ComparisonSign Expression.
-Expression = Term {("+" | "-") Term}.
+ListOper_1 := ListOper.
+ListOper := Oper "¶".
+ListOper := Oper "¶" ListOper.
 
-Term = Multiplier {("*" | "/") Multiplier}.
-Multiplier = Id | FixConst | InPar.
-InPar = "(" Expression ")". 
+Oper := Declaration.
+Oper := "lab".
+Oper := CondTransition.
+Oper := Cycle.
+Oper := Initialization.
+Oper := Input.
+Oper := Output.
+Oper := IncondTransition.
+Oper := Relation.
+Oper := Expression.
 
-Type = "type".
-Label = "@" Id.
-Id = Letter [{Letter | Number}].
-FixConst = "." {Number} | {Number} "." {Number} | {Number} "." | {Number}. 
-Number = "0" | "1" | "2" | "3" | "4" | "5" | "6"| "7" | "8" | "9".
-Letter = "a" | "b" | "c" | "..." | "z" | "_".
-ArithmeticSign = "+" | "-" | "*" | "\".
-ComparisonSign = "<" | "<=" | "==" | "!=" | ">" | ">=".
+Declaration := "type" "id".
+CondTransition := "if" Relation "then" ListOper_1 "fi".
+Cycle := "for" Initialization "by" Expression "to" Expression "do" ListOper_1 "rof".
+Initialization := "id" "=" Expression.
+Input := "cin" ">>" "id".
+Output := "cout" "<<" Expression.
+IncondTransition := "goto" "lab".
+Relation := Expression "comparisonSign" Expression.
+
+Expression := Term.
+Term := Term_1.
+Term := Term "+" Term_1.
+Term := Term "-" Term_1.
+Term_1 := Mult.
+Mult := Mult_1.
+Mult := Mult "*" Mult_1.
+Mult := Mult "/" Mult_1.
+Mult_1 := "id".
+Mult_1 := "fixConst".
+Mult_1 := InPar.
+InPar := "(" Expression ")".
 ```
 
-# USING
+## USING
 The interpreter is designed as a console application, which, in addition to executing the program code of the MyLan language, makes it possible to manually specify the necessary input files for parsing and track each step in the process of performing lexical and syntactic analysis, as well as performing program code operations.
 All of these options are available using *keys* when running a console application. For each key is defined the full and abbreviated form:
 - --codePath/-cp – specifies the path to the file with the input program code of the MyLan language
@@ -89,7 +101,7 @@ The use of keys when starting the application is optional. Without a manually sp
 
 When the program is executed, two more folders are created - OutLAnalyzer and OutRPN, in which the output files generated after the lexical analyzer and the Reverse Polish Notation creation process are placed.
 
-# OUTPUT OF THE APPLICATION
+## OUTPUT OF THE APPLICATION
 The results of the application execution will be demonstrated using the default input data as an example.
 The executable program code of the MyLan language:
 ![image](https://user-images.githubusercontent.com/51093494/184240349-9d5145fe-41a2-4177-ad4f-01d148c9b780.png)
