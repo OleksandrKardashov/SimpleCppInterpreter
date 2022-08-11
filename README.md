@@ -81,10 +81,10 @@ InPar := "(" Expression ")".
 ## USING
 The interpreter is designed as a console application, which, in addition to executing the program code of the MyLan language, makes it possible to manually specify the necessary input files for parsing and track each step in the process of performing lexical and syntactic analysis, as well as performing program code operations.
 All of these options are available using *keys* when running a console application. For each key is defined the full and abbreviated form:
-- --codePath/-cp – specifies the path to the file with the input program code of the MyLan language
-- --grammarPath/-gp – specifies the path to the MyLan language grammar file
-- --info/-i – display the process of parsing and executing the program code of the MyLan language
-- --help/-h - displays a quick guide to using the application
+- **--codePath/-cp** – specifies the path to the file with the input program code of the MyLan language
+- **--grammarPath/-gp** – specifies the path to the MyLan language grammar file
+- **--info/-i** – display the process of parsing and executing the program code of the MyLan language
+- **--help/-h** - displays a quick guide to using the application
 
 There is no strictly defined name for each file; for the program to work, it is enough that the contents of the files indicated after the keys are correct. Also, the order in which multiple keys are used can be arbitrary:
 ```
