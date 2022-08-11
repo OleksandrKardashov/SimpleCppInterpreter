@@ -109,7 +109,7 @@ When the program is executed, two more folders are created - OutLAnalyzer and Ou
 ## OUTPUT OF THE APPLICATION
 The results of the application execution will be demonstrated using the default input data as an example.
 The executable program code of the MyLan language:
-![image]<src="https://user-images.githubusercontent.com/51093494/184240349-9d5145fe-41a2-4177-ad4f-01d148c9b780.png" width="200" height="100">
+![image]<src="https://user-images.githubusercontent.com/51093494/184240349-9d5145fe-41a2-4177-ad4f-01d148c9b780.png" width="100" height="50">
 
 If you use the key --info/-i when starting the application, then the following data will be displayed one by one:
 - Grammar of the MyLan language, which the application received as input:
